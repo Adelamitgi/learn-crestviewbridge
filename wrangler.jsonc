@@ -7,8 +7,8 @@
     "directory": "./public",
     "not_found_handling": "404-page"
   },
-  // workers.dev address: on until learn.crestviewbridge.net is live, then set to false.
-  "workers_dev": true,
+  // Only learn.crestviewbridge.net (custom domain, added in the dashboard) serves the site.
+  "workers_dev": false,
   // No extra public preview addresses for each version.
   "preview_urls": false,
   // Keep request logs off: the privacy notice says no logging is used.
