@@ -31,3 +31,4 @@ A free HSK 4 (HSK 3.0) study site run by Crestview Bridge. Static files only: Cl
 - **Security:** keep the strict Content Security Policy in `make_pages.py` (`script-src 'self'`, no inline scripts or inline `style=` attributes in HTML; set styles through `el.style` in JS). Don't load anything from another domain.
 - **China access:** nothing may depend on Google or other services blocked in mainland China.
 - **Updates reach students** through the service worker. The cache version changes automatically when files change.
+- **Commits:** author every commit as `Adelami <adelami@crestviewbridge.net>`. Add no `Co-Authored-By`, `Claude-Session` or other AI attribution lines to commits or pull requests.
